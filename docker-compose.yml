@@ -27,7 +27,7 @@ services:
   vproapp:
     image: chakalimurali/proj:v1
     ports:
-      - "8081:8080"
+      - "8082:8080"
     volumes: 
       - vproappdata:/usr/local/tomcat/webapps
 
